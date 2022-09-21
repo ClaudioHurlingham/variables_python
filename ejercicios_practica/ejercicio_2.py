@@ -11,6 +11,9 @@
 
 # Ahora los valores a operar deben ser ingresados por
 # consola con la función "input" como se ve a continuación
+from __future__ import division
+
+
 print('Ingrese por consola el primer número entero a operar:')
 numero_1 = int(input())
 
@@ -33,3 +36,11 @@ numero_2 = int(input())
 # División
 
 # Multiplicación
+suma=(numero_1+numero_2)
+print('El resultado de la suma',numero_1,'y',numero_2,'es :',suma)
+resta=(numero_1-numero_2)
+print('El resultado de la resta entre',numero_1,'y',numero_2,'es :',resta)
+multiplicacion=(numero_1*numero_2)
+print('El resultado de la multiplicacion entre',numero_1,'y',numero_2,'es :',multiplicacion)
+division =(numero_1/numero_2)
+print('El resultado de la division de ',numero_1,'y',numero_2,'es:', division)
